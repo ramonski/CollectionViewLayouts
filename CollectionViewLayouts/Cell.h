@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Cell.h
 //  CollectionViewLayouts
 //
 //  Created by Ramon Bartl on 25.05.13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
-
-@property (nonatomic, assign) NSInteger cellCount;
+@interface Cell : UICollectionViewCell
 
 @end

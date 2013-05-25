@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CircleLayout.h
 //  CollectionViewLayouts
 //
 //  Created by Ramon Bartl on 25.05.13.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface CircleLayout : UICollectionViewLayout
 
+@property (nonatomic, assign) CGPoint center;
+@property (nonatomic, assign) CGFloat radius;
 @property (nonatomic, assign) NSInteger cellCount;
 
 @end

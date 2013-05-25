@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E12495F1750E0A000E9F0F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E12495E1750E0A000E9F0F9 /* QuartzCore.framework */; };
 		9EBBC6B61750C953008524B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBC6B51750C953008524B4 /* UIKit.framework */; };
 		9EBBC6B81750C953008524B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBC6B71750C953008524B4 /* Foundation.framework */; };
 		9EBBC6BA1750C953008524B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBC6B91750C953008524B4 /* CoreGraphics.framework */; };
@@ -17,9 +18,12 @@
 		9EBBC6CA1750C953008524B4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBC6C91750C953008524B4 /* Default@2x.png */; };
 		9EBBC6CC1750C953008524B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBC6CB1750C953008524B4 /* Default-568h@2x.png */; };
 		9EBBC6D41750C9AB008524B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBC6D31750C9AB008524B4 /* ViewController.m */; };
+		9EBBC6D91750CC19008524B4 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBC6D81750CC19008524B4 /* Cell.m */; };
+		9EBBC6DD1750CC5F008524B4 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBC6DC1750CC5F008524B4 /* CircleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E12495E1750E0A000E9F0F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9EBBC6B21750C953008524B4 /* CollectionViewLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBBC6B51750C953008524B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9EBBC6B71750C953008524B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,6 +39,10 @@
 		9EBBC6CB1750C953008524B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9EBBC6D21750C9AB008524B4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9EBBC6D31750C9AB008524B4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EBBC6D71750CC19008524B4 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		9EBBC6D81750CC19008524B4 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		9EBBC6DB1750CC5F008524B4 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		9EBBC6DC1750CC5F008524B4 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E12495F1750E0A000E9F0F9 /* QuartzCore.framework in Frameworks */,
 				9EBBC6B61750C953008524B4 /* UIKit.framework in Frameworks */,
 				9EBBC6B81750C953008524B4 /* Foundation.framework in Frameworks */,
 				9EBBC6BA1750C953008524B4 /* CoreGraphics.framework in Frameworks */,
@@ -71,6 +80,7 @@
 		9EBBC6B41750C953008524B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E12495E1750E0A000E9F0F9 /* QuartzCore.framework */,
 				9EBBC6B51750C953008524B4 /* UIKit.framework */,
 				9EBBC6B71750C953008524B4 /* Foundation.framework */,
 				9EBBC6B91750C953008524B4 /* CoreGraphics.framework */,
@@ -81,6 +91,7 @@
 		9EBBC6BB1750C953008524B4 /* CollectionViewLayouts */ = {
 			isa = PBXGroup;
 			children = (
+				9EBBC6D51750CBD9008524B4 /* Libs */,
 				9EBBC6C41750C953008524B4 /* AppDelegate.h */,
 				9EBBC6C51750C953008524B4 /* AppDelegate.m */,
 				9EBBC6D21750C9AB008524B4 /* ViewController.h */,
@@ -102,6 +113,33 @@
 				9EBBC6CB1750C953008524B4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EBBC6D51750CBD9008524B4 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				9EBBC6DA1750CC3E008524B4 /* Layouts */,
+				9EBBC6D61750CBE3008524B4 /* Views */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		9EBBC6D61750CBE3008524B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9EBBC6D71750CC19008524B4 /* Cell.h */,
+				9EBBC6D81750CC19008524B4 /* Cell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9EBBC6DA1750CC3E008524B4 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				9EBBC6DB1750CC5F008524B4 /* CircleLayout.h */,
+				9EBBC6DC1750CC5F008524B4 /* CircleLayout.m */,
+			);
+			name = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +210,8 @@
 				9EBBC6C21750C953008524B4 /* main.m in Sources */,
 				9EBBC6C61750C953008524B4 /* AppDelegate.m in Sources */,
 				9EBBC6D41750C9AB008524B4 /* ViewController.m in Sources */,
+				9EBBC6D91750CC19008524B4 /* Cell.m in Sources */,
+				9EBBC6DD1750CC5F008524B4 /* CircleLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +257,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -241,6 +282,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -286,6 +328,7 @@
 				9EBBC6D11750C953008524B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
