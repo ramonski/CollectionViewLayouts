@@ -34,11 +34,16 @@ A tap gesture recognizer handles the **add** and **delete** actions.
 
 Tapping on a cell deletes it, tapping on the background adds an item.
 
+Files::
+
+    CircleViewLayout.h
+    CircleViewLayout.m
 
 Screenshot
 ~~~~~~~~~~
 
 .. image:: demo_images/CircleViewLayout.jpg
+
 
 
 Changelog
